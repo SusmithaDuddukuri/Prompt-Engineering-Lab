@@ -1,0 +1,76 @@
+EXPERIMENT 3: ITERATIVE PROMPT REFINEMENT
+
+============================================================
+ITERATION 0 (BASELINE)
+============================================================
+
+Prompt:
+Explain photosynthesis to a 10-year-old.
+
+Response:
+Imagine plants are like little master chefs, but instead of using a kitchen, they use **sunlight** to cook! 
+
+The recipe they use is called **photosynthesis** (fo-toe-SIN-thuh-sis). It’s a big word, but it just means "making things with light."
+
+Here are the three ingredients every plant chef needs:
+
+1. **Sunlight:** The plant catches sunlight with its green leaves. (This is why leaves are green—they act like tiny solar panels!)
+2. **Water:** The plant drinks water up from the ground using its roots, just like you drinking through a straw.
+3. **Air:** The plant breathes in a gas from the air called *carbon dioxide* (car-bun dye-OK-side). 
+
+Once the plant has all three ingredients, it mixes them together inside its leaves using the sun's energy. 
+
+*Poof!* Magic! 
+
+What does it make? 
+* **Food:** Sugar and starches that help the plant grow big and strong.
+* **Oxygen:** A fresh gas that the plant doesn't need, so it breathes it *out* into the air. 
+
+And that’s the best part for us! Every time a plant makes its dinner, it makes the fresh air that **you** breathe. So, next time you see a tree, you can thank it for being a giant, oxygen-making machine!
+
+Analysis:
+The baseline establishes a starting point. Check whether the explanation is simple and concise.
+
+============================================================
+ITERATION 1 (ANALOGY + BREVITY)
+============================================================
+
+Prompt:
+You are a friendly science teacher. Explain photosynthesis to a 10-year-old using a simple kitchen analogy. Use exactly 3 short sentences and avoid technical jargon.
+
+Response:
+Plants are just like little chefs cooking up their own food right in the kitchen of their leaves. They mix together water from the soil and carbon dioxide from the air as their ingredients. Finally, they use warm sunlight as the oven's heat to bake yummy sugar for energy!
+
+Analysis:
+The analogy, simple language, and sentence limit aim to make the explanation easier for a child.
+
+============================================================
+ITERATION 2 (MEMORY TRICK + DIAGRAM)
+============================================================
+
+Prompt:
+You are a friendly science teacher. Explain photosynthesis to a 10-year-old using a simple kitchen analogy. Use exactly 3 short sentences and avoid technical jargon. Then add a memory trick and describe a simple text-only diagram.
+
+Response:
+Plants are like tiny chefs in a green kitchen cooking up their own food. They use sunlight as electricity, water from the soil, and air to bake sweet treats on their leaves. This magic recipe gives the plant energy to grow big and strong while filling our air with fresh oxygen!
+
+**Memory Trick:** Think of plants as **"Sun-Powered Bakers"**—they mix sunshine, water, and air to bake sugar!
+
+**Simple Text-Only Diagram:**
+[SUNSHINE] ☀️ 
+    \
+     v
+[GREEN LEAF] 🍃 <--- Mixes in [WATER] 💧 and [AIR] 💨
+     |
+     v
+[SWEET SUGAR] 🍬 (Plant Food!)
+
+Analysis:
+The memory trick and diagram description add ways to remember and visualize the concept.
+
+
+Final Summary:
+Iteration 0: Provides the baseline explanation.
+Iteration 1: Adds a kitchen analogy, brevity, and simple language.
+Iteration 2: Adds a memory trick and a text-only diagram description.
+Compare the responses to see whether each refinement improves clarity, memorability, and visualization.
