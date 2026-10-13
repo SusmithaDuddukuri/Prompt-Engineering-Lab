@@ -1,0 +1,42 @@
+EXPERIMENT 10: CHAIN-OF-THOUGHT PROMPTING
+Model: gemini-flash-lite-latest
+Temperature: 0
+
+=== DIRECT PROMPT ===
+Prompt: A farmer has 15 cows. He buys 7 more cows. Then he sells half of his cows. How many cows does he have left?
+Response: The farmer has **11** cows left. 
+
+Here is the math:
+1. He starts with 15 cows.
+2. He buys 7 more: $15 + 7 = 22$ cows.
+3. He sells half of them: $22 \div 2 = 11$ cows.
+Extracted answer: 11
+
+=== CHAIN-OF-THOUGHT PROMPT ===
+Prompt: A farmer has 15 cows. He buys 7 more cows. Then he sells half of his cows. How many cows does he have left?
+Let's think step by step. Show each step.
+Response: Let's break it down step by step:
+
+1. **Start with the initial number of cows:** 
+   The farmer starts with 15 cows.
+
+2. **Add the cows he buys:** 
+   He buys 7 more cows. 
+   $15 + 7 = 22$ cows.
+
+3. **Calculate the cows he sells:** 
+   He sells half of his cows. 
+   $22 \div 2 = 11$ cows.
+
+4. **Determine how many are left:** 
+   He had 22 cows and sold 11, so he has:
+   $22 - 11 = 11$ cows left.
+
+The farmer has **11** cows left.
+Extracted answer: 11
+
+=== ANALYSIS ===
+Expected answer: 11
+Direct prompt: PASS
+Chain-of-Thought prompt: PASS
+Conclusion: Both prompts produced the correct answer. The step-by-step response provides a clearer explanation, but this single example does not prove that CoT is always more accurate.
