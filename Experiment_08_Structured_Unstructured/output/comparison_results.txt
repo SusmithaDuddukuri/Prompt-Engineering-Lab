@@ -1,0 +1,36 @@
+EXPERIMENT 8: STRUCTURED VS. UNSTRUCTURED OUTPUT
+Model: gemini-flash-lite-latest
+Temperature: 0.2
+
+=== UNSTRUCTURED PROMPT ===
+Describe Python, Java, and C++ in one short paragraph.
+Mention their typing systems, common use cases, and relative difficulty.
+Use plain text, not a table.
+
+=== UNSTRUCTURED RESPONSE ===
+Python is a dynamically typed, beginner-friendly language widely used in web development, data science, and automation, offering rapid development at the cost of slower execution speed. Java is a statically typed, moderately difficult language famous for its platform independence through the Java Virtual Machine, making it a staple in enterprise backend systems and Android app development. C++ is a statically typed, highly complex language known for manual memory management and blistering performance, making it the industry standard for game development, operating systems, and high-frequency trading.
+
+=== STRUCTURED PROMPT ===
+Compare Python, Java, and C++ using a Markdown table.
+
+Use exactly these columns:
+Language | Typing (static/dynamic) | Primary Use Case | Difficulty (Beginner/Intermediate/Advanced)
+
+Include exactly three data rows: Python, Java, and C++.
+Use the appropriate typing category and a concise primary use case.
+Choose one difficulty level for each language.
+Return only the Markdown table, with no introduction or conclusion.
+
+=== STRUCTURED RESPONSE ===
+| Language | Typing (static/dynamic) | Primary Use Case | Difficulty (Beginner/Intermediate/Advanced) |
+| --- | --- | --- | --- |
+| Python | Dynamic | Data Science & Automation | Beginner |
+| Java | Static | Enterprise Software | Intermediate |
+| C++ | Static | Game Development & Systems | Advanced |
+
+=== ANALYSIS ===
+The unstructured paragraph presents the information as natural prose and is useful for a quick general overview.
+
+The Markdown table places each language in a separate row and each characteristic in a separate column. This makes the information easier to scan and compare consistently.
+
+The basic checks verify that the expected column labels and language names appear. They do not guarantee that every cell is factually correct or that the Markdown table is perfectly formatted, so inspect the table manually.
