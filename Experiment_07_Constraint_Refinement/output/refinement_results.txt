@@ -1,0 +1,50 @@
+EXPERIMENT 7: CONSTRAINT SPECIFICATION AND REFINEMENT
+Model: gemini-flash-lite-latest
+Temperature: 0.7
+
+=== INITIAL PROMPT ===
+Describe a smartwatch.
+Use exactly 3 bullet points.
+Each bullet point must start with a verb.
+Do not use the word "smart" anywhere.
+Keep the entire description under 60 words.
+
+=== INITIAL RESPONSE ===
+* Track daily physical activities and heart rates accurately.
+* Receive instant notifications directly on your wrist.
+* Customize interchangeable bands to match your personal style.
+
+=== INITIAL CONSTRAINT REPORT ===
+{'bullet_count': 3, 'exactly_three_bullets': True, 'verb_checks': [True, True, True], 'all_bullets_start_with_verbs': True, 'word_count': 23, 'under_60_words': True, 'prohibited_word_found': False, 'no_extra_text': True, 'bullets': ['Track daily physical activities and heart rates accurately.', 'Receive instant notifications directly on your wrist.', 'Customize interchangeable bands to match your personal style.']}
+
+=== REFINED PROMPT ===
+Describe a fitness watch.
+Follow every constraint carefully:
+1. Write exactly 3 bullet points and no introductory or concluding text.
+2. Each bullet must start with an action verb.
+3. Do not use the prohibited word "smart" anywhere in your response.
+4. Keep the entire description under 60 words.
+
+Follow this format and use different, relevant details:
+- Tracks daily activity.
+- Displays messages and alerts.
+- Monitors your workout progress.
+
+Return only the three bullet points.
+
+=== REFINED RESPONSE ===
+- Measure your daily heart rate and sleep patterns.
+- Sync incoming phone notifications directly to your wrist.
+- Analyze running pace and distance metrics during exercise.
+
+=== REFINED CONSTRAINT REPORT ===
+{'bullet_count': 3, 'exactly_three_bullets': True, 'verb_checks': [True, True, True], 'all_bullets_start_with_verbs': True, 'word_count': 24, 'under_60_words': True, 'prohibited_word_found': False, 'no_extra_text': True, 'bullets': ['Measure your daily heart rate and sleep patterns.', 'Sync incoming phone notifications directly to your wrist.', 'Analyze running pace and distance metrics during exercise.']}
+
+=== COMPARISON SUMMARY ===
+Exactly 3 bullets: Initial=PASS; Refined=PASS
+Every bullet starts with a verb: Initial=PASS; Refined=PASS
+Prohibited word avoided: Initial=PASS; Refined=PASS
+At most 60 words: Initial=PASS; Refined=PASS
+No extra text: Initial=PASS; Refined=PASS
+
+Note: Verb recognition is heuristic; review the outputs manually.
