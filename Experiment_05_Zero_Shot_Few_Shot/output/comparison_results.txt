@@ -1,0 +1,43 @@
+EXPERIMENT 5: ZERO-SHOT VS FEW-SHOT
+
+Review 1: The battery life is amazing!
+Ground truth: Positive
+Zero-shot response: Positive
+Zero-shot label: Positive
+Few-shot response: Positive
+Few-shot label: Positive
+
+Review 2: It works, nothing special.
+Ground truth: Neutral
+Zero-shot response: Neutral
+Zero-shot label: Neutral
+Few-shot response: Neutral
+Few-shot label: Neutral
+
+Review 3: The screen stopped working after two days.
+Ground truth: Negative
+Zero-shot response: Negative
+Zero-shot label: Negative
+Few-shot response: Negative
+Few-shot label: Negative
+
+Review 4: The package arrived yesterday.
+Ground truth: Neutral
+Zero-shot response: Neutral
+Zero-shot label: Neutral
+Few-shot response: Neutral
+Few-shot label: Neutral
+
+Review 5: Excellent camera and beautiful photos.
+Ground truth: Positive
+Zero-shot response: Positive
+Zero-shot label: Positive
+Few-shot response: Positive
+Few-shot label: Positive
+
+COMPARISON TABLE
+Zero-shot accuracy: 5/5 (100.0%)
+Few-shot accuracy: 5/5 (100.0%)
+Zero-shot format adherence: 100.0%
+Few-shot format adherence: 100.0%
+Prediction agreement: 100.0%
