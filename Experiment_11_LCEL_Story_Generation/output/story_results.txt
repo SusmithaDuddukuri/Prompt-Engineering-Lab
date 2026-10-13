@@ -1,0 +1,9 @@
+EXPERIMENT 11: LCEL STORY GENERATION
+Model: gemini-flash-lite-latest
+Chain: prompt | Gemini API runnable | parser
+
+Topic: a dragon and a knight
+Story: Sir Galahad raised his gleaming broadsword, ready to slay the ancient terror of the mountain. Ignis rolled his massive golden eyes, gently nudged the shivering knight with a scaly snout, and offered him a toasted marshmallow.
+
+Topic: a lost spaceship
+Story: For three hundred years, the navigation computer has insisted that Earth is just one light-year ahead, stubbornly sailing past dead stars in an endless, silent dark. The crew died of old age centuries ago, leaving only the automated captain to faithfully repeat a distress signal that no one is left to answer.
