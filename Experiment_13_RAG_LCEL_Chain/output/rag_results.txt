@@ -1,0 +1,46 @@
+EXPERIMENT 13: RAG CHAIN USING LCEL
+LLM: gemini-flash-lite-latest
+
+Question: What causes climate change?
+Answer:
+Based on the provided context, climate change can occur naturally, but human activities have been the main driver since the nineteenth century, specifically the burning of fossil fuels such as coal, oil, and gas, which releases greenhouse [gases].
+
+Retrieved Chunks:
+
+Chunk 1: Climate change also affects weather patterns. Many regions experience
+    more intense heat waves, droughts, and heavy rainfall. Some areas face
+    stronger storms and an increased risk of wildfires. These events can
+    damage ecosystems and make daily life more difficult.
+
+Chunk 2: Climate change refers to long-term shifts in temperatures and weather
+    patterns. These shifts can occur naturally, but human activities have
+    been the main driver of climate change since the nineteenth century.
+    Burning fossil fuels such as coal, oil, and gas releases greenhouse
+
+-----------------------------------------------------------------
+
+Question: What are the effects of climate change?
+Answer:
+Based on the provided context, the effects of climate change include:
+
+* Affecting human health (heat waves increase the risk of heat-related illnesses).
+* Affecting food production (droughts and floods can reduce crop yields).
+* Affecting water supplies (due to changes in rainfall and temperature).
+* Affecting weather patterns, leading many regions to experience more intense heat waves, droughts, and heavy rainfall.
+* Causing some areas to face stronger storms and an increased risk of wildfires.
+* Damaging ecosystems and making daily life more difficult.
+
+Retrieved Chunks:
+
+Chunk 1: Climate change can affect human health and food production. Heat waves
+    increase the risk of heat-related illnesses, while droughts and floods
+    can reduce crop yields. Changes in rainfall and temperature can also
+    affect water supplies.
+
+Chunk 2: Climate change also affects weather patterns. Many regions experience
+    more intense heat waves, droughts, and heavy rainfall. Some areas face
+    stronger storms and an increased risk of wildfires. These events can
+    damage ecosystems and make daily life more difficult.
+
+-----------------------------------------------------------------
+
