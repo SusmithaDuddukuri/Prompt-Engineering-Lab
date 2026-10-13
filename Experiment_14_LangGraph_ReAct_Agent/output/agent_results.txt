@@ -1,0 +1,28 @@
+============================================================
+EXPERIMENT 14: LANGGRAPH REACT AGENT
+============================================================
+Model: gemini-3.1-flash-lite
+Tools: get_weather, calculate
+
+=== AGENT EXECUTION TRACE ===
+
+Action: get_weather
+Action Input: {'city': 'London'}
+Observation (get_weather): Current temperature in London: 18.5 degrees Celsius (Open-Meteo).
+
+Action: calculate
+Action Input: {'expression': '(18.5 * 9 / 5) + 32'}
+Observation (calculate): 65.3
+
+Action: calculate
+Action Input: {'expression': '320 * 0.15'}
+Observation (calculate): 48.0
+
+Action: calculate
+Action Input: {'expression': '65.3 + 48'}
+Observation (calculate): 113.3
+
+=== FINAL ANSWER ===
+The current temperature in London is 18.5°C, which is 65.3°F. 
+
+15% of 320 is 48. Adding this to the Fahrenheit temperature (65.3 + 48) results in 113.3.
