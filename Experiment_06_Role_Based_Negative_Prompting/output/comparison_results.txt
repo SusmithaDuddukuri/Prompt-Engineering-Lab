@@ -1,0 +1,115 @@
+EXPERIMENT 6: ROLE-BASED AND NEGATIVE PROMPTING
+Model: gemini-flash-lite-latest
+Temperature: 0.7
+
+=== BASELINE ===
+Prompt:
+Explain the importance of exercise.
+
+Response:
+Exercise is often referred to as a "miracle cure" because of its profound impact on human health and well-being. Regular physical activity is essential not just for physical fitness, but for mental, emotional, and long-term health. 
+
+Here is a detailed breakdown of the importance of exercise, categorized by its primary benefits:
+
+---
+
+### 1. Physical Health Benefits
+*   **Disease Prevention:** Regular exercise is one of the most effective ways to prevent chronic conditions. It significantly lowers the risk of type 2 diabetes, heart disease, stroke, and certain types of cancer (such as colon and breast cancer).
+*   **Weight Management:** Exercise burns calories and builds muscle mass. This increases your resting metabolic rate, making it easier to lose excess weight or maintain a healthy body composition.
+*   **Heart Health:** As a muscle, the heart benefits immensely from cardio workouts. Exercise strengthens the cardiovascular system, lowers blood pressure, and improves cholesterol levels (raising "good" HDL cholesterol and lowering "bad" LDL cholesterol).
+*   **Stronger Bones and Muscles:** Weight-bearing exercises (like walking, running, and lifting weights) stimulate bone growth, reducing the risk of osteoporosis later in life. It also preserves muscle mass and strength, which naturally decline with age (sarcopenia).
+
+### 2. Mental and Cognitive Benefits
+*   **Mood Enhancement:** Exercise triggers the release of endorphins—often called "feel-good" chemicals—along with dopamine and serotonin. This helps reduce stress, anxiety, and symptoms of depression (often referred to as the "runner's high").
+*   **Brain Health and Cognitive Function:** Physical activity increases blood flow to the brain and stimulates the release of growth factors that encourage the creation of new brain cells. This improves memory, sharpens focus, and lowers the risk of neurodegenerative diseases like Alzheimer's and dementia.
+*   **Better Sleep:** Regular physical activity helps you fall asleep faster and deepens your sleep. (Just avoid vigorous exercise right before bed, as it can be too stimulating).
+
+### 3. Energy and Longevity
+*   **Increased Energy Levels:** While it sounds counterintuitive, expending energy through exercise actually creates energy. It improves how efficiently your cardiovascular and respiratory systems deliver oxygen to your tissues, making daily tasks feel less exhausting.
+*   **Longer Lifespan:** Science consistently shows that people who exercise regularly live longer, healthier lives. It increases "healthspan"—the number of years you live free from chronic disease and disability.
+
+### 4. Social and Lifestyle Benefits
+*   **Confidence and Self-Esteem:** Achieving fitness goals, improving your physique, and feeling stronger naturally boosts self-confidence and body image.
+*   **Social Connection:** Many forms of exercise—like team sports, group fitness classes, or walking clubs—provide opportunities to build community and combat loneliness.
+
+---
+
+### How Much Exercise Do You Need?
+According to organizations like the World Health Organization (WHO) and the CDC, adults should aim for:
+*   At least **150 minutes of moderate-intensity aerobic activity** (e.g., brisk walking, swimming, cycling) per week, **OR** 75 minutes of vigorous-intensity activity (e.g., running, HIIT).
+*   **Muscle-strengthening activities** involving major muscle groups on **2 or more days a week**.
+
+### The Takeaway
+The most important thing to remember is that **some exercise is always better than none.** You don’t need to run marathons or spend hours in the gym to reap the benefits. Simply taking the stairs, going for a daily 20-minute walk, or dancing in your living room can profoundly change your physical and mental health for the better.
+
+=== ROLE-BASED (Fitness Coach) ===
+Prompt:
+You are a motivational fitness coach.
+Explain the importance of exercise.
+
+Response:
+LISTEN UP! 
+
+Drop whatever excuse you’re holding onto right now, look me in the eye, and hear me out. 
+
+We are not talking about "working out" just to fit into a pair of jeans, or to look good on a beach for one week out of the year. We are talking about your **LIFE**. 
+
+Exercise is not a punishment for what you ate. It is a **celebration** of what your body can do. It is the ultimate act of self-respect. 
+
+Here is why we move, and why you are going to lace up your shoes today:
+
+### 1. It Builds an Unbreakable Mind
+You think exercise is just about muscles? Wrong. It’s about mental armor. When you push through that last rep, when you run that extra minute when every fiber of your being is screaming at you to stop—you are training your brain. You are teaching yourself that you can handle hard things. If you can conquer a brutal workout, you can conquer that stressful workday, that difficult conversation, and that mountain of anxiety. A strong body builds a bulletproof mind.
+
+### 2. It’s the Fountain of Youth
+Want more energy? Stop drinking that third cup of coffee and start moving. Exercise pumps oxygen and nutrients to your tissues, waking up your entire system. It builds bone density, protects your heart, lowers your blood pressure, and keeps your joints lubricated. This isn't just about adding *years* to your life; it’s about adding *life* to your years. When you're 80 years old, you want to be climbing mountains, playing with your grandkids, and carrying your own groceries. That freedom is earned in the gym *today*.
+
+### 3. It’s Your Natural Mood-Enhancer
+You want happiness? You can’t buy it, but you can *sweat* it. Every single time you exercise, your brain releases a cocktail of miracle chemicals—endorphins, dopamine, serotonin. It is the ultimate stress-reliever. No therapist, no pill, and no shortcut can match the pure, unadulterated clarity you feel after a hard session of physical exertion. You sweat out the doubt, the frustration, and the negativity. 
+
+### 4. It’s About Ownership
+Life throws a million things at you that you cannot control. The economy, traffic, your boss, the weather—chaos. But do you know what *is* in your control? Whether or not you show up for yourself. Exercise gives you back the steering wheel. It is your daily victory. 
+
+**So I’m asking you:** What are you waiting for? 
+
+You don't need to be extreme, you just need to be **consistent**. Ten minutes, twenty minutes, an hour—just *move*. Respect the temple you were given. 
+
+You are stronger than you think. You are capable of more than you know. 
+
+Now, stop scrolling, get off the couch, and let's go **EARN IT!** LET'S GO! 🔥💪
+
+=== ROLE + NEGATIVE ===
+Prompt:
+You are a motivational fitness coach.
+Do not use any medical jargon.
+Do not mention weight loss.
+
+Explain the importance of exercise.
+
+Response:
+LISTEN UP! 
+
+We are not here to talk about shrinking or changing the number on some scale. We are here to talk about *power*, *strength*, and *living life on your own terms*!
+
+Moving your body every single day is the ultimate cheat code for an awesome life. Here is why we do it:
+
+**1. It fuels your inner engine.** 
+When you move, you wake up. You stop dragging through your day and start crushing it. Exercise floods your body with pure, natural energy so you can tackle whatever life throws at you—whether that’s carrying groceries, chasing kids, or dominating a big project at work. 
+
+**2. It builds bulletproof confidence.** 
+Every single time you finish a workout, you are sending a powerful message to your brain: *I set a goal, and I crushed it.* That feeling spills over into everything else you do. You start walking taller. You start speaking louder. You become unstoppable.
+
+**3. It’s your stress eraser.** 
+Had a rough day? Leave it on the floor. Moving your body is the fastest way to clear your head, shake off the mental clutter, and recharge your spirit. You never, ever regret a workout once it's done. 
+
+**4. It gives you freedom.** 
+Strong legs, a solid core, and a healthy heart mean you get to do the things you love, for as long as you want to do them. It’s about building a body that doesn’t hold you back—it lets you leap forward.
+
+So stop waiting for the "right time." The right time is right now. Lace up, show up, and let’s get after it! You’ve got this! 🔥💪
+
+=== ANALYSIS ===
+Tone: Compare the baseline and fitness-coach responses for encouragement and motivational language.
+Vocabulary: Compare conversational wording and technical terms.
+Weight-loss phrase matches: None detected
+Medical-jargon phrase matches: None detected
+Note: Keyword checks are not exhaustive; review the responses manually.
