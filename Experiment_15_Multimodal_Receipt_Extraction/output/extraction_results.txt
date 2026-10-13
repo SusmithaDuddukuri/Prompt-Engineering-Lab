@@ -1,0 +1,36 @@
+EXPERIMENT 15: MULTIMODAL RECEIPT EXTRACTION
+
+Model: gemini-3.1-flash-lite
+Image: receipt.png
+
+EXTRACTED JSON:
+{
+  "restaurant_name": "The Golden Wok",
+  "date": "2026-03-15",
+  "items": [
+    {
+      "name": "Spring Rolls",
+      "price": 5.99
+    },
+    {
+      "name": "Kung Pao Chicken",
+      "price": 14.99
+    },
+    {
+      "name": "Fried Rice",
+      "price": 3.99
+    },
+    {
+      "name": "Iced Tea",
+      "price": 2.5
+    }
+  ],
+  "subtotal": 27.47,
+  "tax": 2.06,
+  "total": 29.53,
+  "validation": {
+    "subtotal_plus_tax_matches_total": true,
+    "difference": 0.0,
+    "status": "PASS"
+  }
+}
