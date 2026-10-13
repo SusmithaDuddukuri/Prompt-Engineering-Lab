@@ -1,0 +1,20 @@
+EXPERIMENT 12: RAG DATA INDEXING AND RETRIEVAL
+Number of chunks created: 7
+Query: What are the effects of climate change?
+
+Top 2 retrieved chunks:
+
+Result 1
+Score: 0.6190
+Chunk: Climate change can affect human health and food production. Heat waves
+    increase the risk of heat-related illnesses, while droughts and floods
+    can reduce crop yields. Changes in rainfall and temperature can also
+    affect water supplies.
+------------------------------------------------------------
+Result 2
+Score: 0.5883
+Chunk: Climate change also affects weather patterns. Many regions experience
+    more intense heat waves, droughts, and heavy rainfall. Some areas face
+    stronger storms and an increased risk of wildfires. These events can
+    damage ecosystems and make daily life more difficult.
+------------------------------------------------------------
